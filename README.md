@@ -9,12 +9,13 @@ lib/
  │   └─ users_page.dart
  └─ main.dart
 
-
+************
 dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.0
   provider: ^6.1.2
+****************
 
 class User {
   final int id;
@@ -43,6 +44,8 @@ class User {
     };
   }
 }
+*************
+
 
 import 'dart:convert';
 import 'package:http/http.dart' as http;
@@ -106,6 +109,8 @@ class UserService {
   }
 }
 
+**********************
+
 import 'package:flutter/material.dart';
 import '../models/user.dart';
 import '../services/user_service.dart';
@@ -150,6 +155,8 @@ class UsersViewModel extends ChangeNotifier {
     notifyListeners();
   }
 }
+
+*******************
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -225,6 +232,7 @@ class _UsersPageState extends State<UsersPage> {
   }
 }
 
+***********************
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
