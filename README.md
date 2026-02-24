@@ -5,7 +5,7 @@ lib/
  ├ detail_screen.dart
  └ api_service.dart
 
-api_service.dart
+api_service.dart----------------------------------------------------
  import 'dart:convert';
 import 'package:http/http.dart' as http;
 
@@ -22,7 +22,7 @@ class ApiService {
     }
   }
 }
-
+----------------------------------------------------
 
 main.dart
 import 'package:flutter/material.dart';
@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
       home: const LoginScreen(),
     );
   }
-}
+}----------------------------------------------------
 
 login_screen.dart
 import 'package:flutter/material.dart';
@@ -123,7 +123,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     );
   }
-}
+}----------------------------------------------------
 
 home_screen.dart
 import 'package:flutter/material.dart';
@@ -213,7 +213,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     );
   }
-}
+}----------------------------------------------------
 
 detail_screen.dar
 import 'package:flutter/material.dart';
@@ -267,3 +267,4 @@ class DetailScreen extends StatelessWidget {
     );
   }
 }
+
